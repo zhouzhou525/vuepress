@@ -107,8 +107,13 @@ module.exports = {
                         ['vueRouter/vueRouter.md', '基础'],
                         ['vueRouter/navigation.md', '导航守卫']
                     ]
+                },
+                {
+                    title: 'vuePress',
+                    children: [
+                        ['vuePress', 'vuePress踩坑小记']
+                    ]
                 }
-
             ],
             '/js/ES6/': [
                 {
@@ -121,6 +126,14 @@ module.exports = {
                     title: 'TS',
                     children: [
                         ['es6/array.md', '数组方法总结']
+                    ]
+                }
+            ],
+            '/frontEnd/css/': [
+                {
+                    title: 'css注意点',
+                    children: [
+                        ['attention/attention.md']
                     ]
                 }
             ]
