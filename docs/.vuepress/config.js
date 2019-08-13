@@ -58,7 +58,7 @@ module.exports = {
                     },
                     {
                         text: '工具',
-                        link: '/frontEnd/interview/'
+                        link: '/frontEnd/tool/'
                     },
                     {
                         text: '移动端',
@@ -99,8 +99,20 @@ module.exports = {
             }
         ],
         sidebar: {
+            '/js/basis/': [
+                {
+                    title: 'BOM',
+                    children: [
+                        {
+                            title: 'window',
+                            children: [
+                                ['BOM/window/event', '事件']
+                            ]
+                        }
+                    ]
+                }
+            ],
             '/js/vue/': [
-                '',
                 {
                     title: 'vue-router',
                     children: [
@@ -130,6 +142,14 @@ module.exports = {
                 }
             ],
             '/frontEnd/css/': [
+                {
+                    title: 'css注意点',
+                    children: [
+                        ['attention/attention.md', '零碎注意点']
+                    ]
+                }
+            ],
+            '/frontEnd/tool/': [
                 {
                     title: 'css注意点',
                     children: [
