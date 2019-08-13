@@ -133,7 +133,7 @@ module.exports = {
                 {
                     title: 'css注意点',
                     children: [
-                        ['attention/attention.md']
+                        ['attention/attention.md', '零碎注意点']
                     ]
                 }
             ]
