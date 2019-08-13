@@ -1,6 +1,8 @@
 搭建博客时，参照[官网][1]就可以完成基本搭建
 但是，也走了些弯路，先纪录下来
-##　想实现下拉框，展示不同路由
+
+## 想实现下拉框，展示不同路由
+
 themeConfig配置如下：
 ```
 nav: [
@@ -45,14 +47,10 @@ sidebar: {
    ]
 }
 ```
-效果如下：
-
-![clipboard.png](/img/bVbwlcz)
-
-![clipboard.png](/img/bVbwlcA)
 
 ## 必须有默认README.md
 每个文件根路径默认为README.md，会被编译成index.html文件
+
 ## 发布到github博客
 使用下面的npm 命令将项目编译成html
 ```
