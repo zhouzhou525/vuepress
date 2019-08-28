@@ -18,10 +18,7 @@ module.exports = {
     themeConfig: {
         sidebarDepth: 6,
         lastUpdated: 'Last Updated',
-        nav: [{
-                text: 'home',
-                link: '/'
-            },
+        nav: [
             {
                 text: 'JS',
                 items: [{
@@ -43,46 +40,30 @@ module.exports = {
                 ]
             },
             {
-                text: '前端',
+                text: 'Web',
                 items: [{
                         text: 'HTML',
-                        link: '/frontEnd/html/'
+                        link: '/web/html/'
                     },
                     {
                         text: 'CSS',
-                        link: '/frontEnd/css/'
+                        link: '/web/css/'
                     },
                     {
-                        text: '浏览器',
-                        link: '/frontEnd/browser/'
+                        text: '协议',
+                        link: '/web/protocol/'
                     },
                     {
                         text: '工具',
-                        link: '/frontEnd/tool/'
+                        link: '/web/tool/'
                     },
                     {
                         text: '移动端',
-                        link: '/frontEnd/mobile/'
+                        link: '/web/mobile/'
                     },
                     {
                         text: '面试',
-                        link: '/frontEnd/interview/'
-                    }
-                ]
-            },
-            {
-                text: '协议',
-                items: [{
-                        text: 'HTTP',
-                        link: '/protocol/HTTP/'
-                    },
-                    {
-                        text: 'TCP/IP',
-                        link: '/protocol/TCP/'
-                    },
-                    {
-                        text: '其他',
-                        link: '/protocol/others/'
+                        link: '/web/interview/'
                     }
                 ]
             },
@@ -136,7 +117,7 @@ module.exports = {
                     ]
                 }
             ],
-            '/frontEnd/css/': [
+            '/web/css/': [
                 {
                     title: 'css注意点',
                     children: [
@@ -144,7 +125,7 @@ module.exports = {
                     ]
                 }
             ],
-            '/frontEnd/tool/': [
+            '/web/tool/': [
                 {
                     title: 'css注意点',
                     children: [
