@@ -101,14 +101,9 @@ module.exports = {
         sidebar: {
             '/js/basis/': [
                 {
-                    title: 'BOM',
+                    title: 'window',
                     children: [
-                        {
-                            title: 'window',
-                            children: [
-                                ['BOM/window/event', '事件']
-                            ]
-                        }
+                        ['window/event', '事件']
                     ]
                 }
             ],
