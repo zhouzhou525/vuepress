@@ -20,13 +20,18 @@ module.exports = {
         lastUpdated: 'Last Updated',
         nav: [
             {
-                text: 'JS',
-                items: [{
-                        text: 'js基础',
+                text: '前端',
+                items: [
+                    {
+                        text: 'html/css',
+                        link: '/js/css-html/'
+                    },
+                    {
+                        text: 'javascript',
                         link: '/js/basis/'
                     },
                     {
-                        text: 'ES6',
+                        text: 'ES6/TS',
                         link: '/js/ES6/'
                     },
                     {
@@ -41,17 +46,10 @@ module.exports = {
             },
             {
                 text: 'Web',
-                items: [{
-                        text: 'HTML',
-                        link: '/web/html/'
-                    },
+                items: [
                     {
-                        text: 'CSS',
-                        link: '/web/css/'
-                    },
-                    {
-                        text: '协议',
-                        link: '/web/protocol/'
+                        text: 'web',
+                        link: '/web/web/'
                     },
                     {
                         text: '工具',
@@ -68,18 +66,22 @@ module.exports = {
                 ]
             },
             {
-                text: '计算机基础',
-                items: [{
-                    text: '数据结构',
-                    link: '/basis/dataStructure'
-                }]
-            },
-            {
                 text: 'GitHub',
                 link: 'https://github.com/zhouzhou525'
             }
         ],
         sidebar: {
+            '/js/css-html/': [
+                {
+                    title: 'css',
+                    children: [
+                        ['css/attention.md', '零碎注意点']
+                    ]
+                },
+                {
+                    title: 'html'
+                }
+            ],
             '/js/basis/': [
                 {
                     title: 'window',
@@ -114,22 +116,6 @@ module.exports = {
                     title: 'TS',
                     children: [
                         ['es6/array.md', '数组方法总结']
-                    ]
-                }
-            ],
-            '/web/css/': [
-                {
-                    title: 'css注意点',
-                    children: [
-                        ['attention/attention.md', '零碎注意点']
-                    ]
-                }
-            ],
-            '/web/tool/': [
-                {
-                    title: 'css注意点',
-                    children: [
-                        ['attention/attention.md', '零碎注意点']
                     ]
                 }
             ]
